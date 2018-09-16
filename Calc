@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script>
+	var a = prompt("Выбери операцию:сложение,вычитание,умножение,деление.");
+	var b = prompt("A:");
+	b = parseInt(b);
+	var c = prompt("B:");
+	c = parseInt(c);
+if (a == 'сложение') {
+	alert("ответ готов:");
+	alert(a=b+c);
+}
+if (a == 'вычитание') {
+	alert("ответ готов:");
+	alert(a=b-c);
+}
+if (a == 'умножение') {
+	alert("ответ готов:");
+	alert(a=b*c);
+}
+if (a == 'деление') {
+	alert("ответ готов:");
+	alert(a=b/c);
+}
+</script>
